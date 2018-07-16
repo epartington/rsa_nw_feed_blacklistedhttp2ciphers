@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FDF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="feed-definitions.xsd">
+
+<FlatFileFeed comment="#" separator="," path="blacklistedhttp2ciphers.csv" name="unified">
+
+<MetaCallback name="InspectMeta" valuetype="Text" ignorecase="true">
+<Meta name="crypto"/>
+</MetaCallback>
+
+<LanguageKeys>
+<LanguageKey name="analysis.service" valuetype="Text"/>
+</LanguageKeys>
+
+<Fields>
+<Field index="1" type="index" key="InspectMeta"/>
+<Field index="2" type="value" key="analysis.service"/>
+</Fields>
+</FlatFileFeed>
+</FDF>
